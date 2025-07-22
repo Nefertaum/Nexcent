@@ -14,9 +14,11 @@ export default function Home() {
   return (
     <div className="container">
       <Header />
-      <Hero />
-      <Clients />
-      <Community />
+      <div className="absolute inset-y-[84px] gap-[40px]">
+        <Hero />
+        <Clients />
+        <Community />
+      </div>
       <Unlock />
       <Achievemennts />
       <Calendar />

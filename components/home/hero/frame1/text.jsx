@@ -1,6 +1,6 @@
 export function Text() {
   return (
-    <div className=" flex flex-col justify-center ">
+    <div>
       <h1 className="font-semibold font-inter text-[#4D4D4D] text-[64px] leading-[76px]">
         Lessons and insights{" "}
         <span className="text-[#4CAF4F]">from 8 years</span>

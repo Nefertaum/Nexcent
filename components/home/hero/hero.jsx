@@ -4,12 +4,12 @@ import { Dot } from "./dot";
 
 export function Hero() {
   return (
-    <div className="bg-[#F5F7FA] flex flex-col container pt-[96px] pr-[144px] pb-[96px] pl-[144px]">
-      <div className="inline-flex container">
+    <div className="bg-[#F5F7FA]  gap-[104px] w-[1440]">
+      <div className="inline-flex justify-around content-around w-[1440] pt-[96px] pr-[144px] pb-[96px] pl-[144px]">
         <Frame1 />
         <Illustration />
       </div>
-      <div className="w-[46] h-[10] inset-x-[657px]">
+      <div className="absolute w-[46] h-[10] inset-y-[573px] inset-x-[697px] gap-[8px]">
         <Dot />
       </div>
     </div>

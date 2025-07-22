@@ -14,7 +14,6 @@ export function Logo() {
         width={154.49041748046875}
         height={24}
         alt="logo image"
-        className="top-[30] ml-[105] gap-[8]"
       />
     </>
   );
