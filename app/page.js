@@ -12,7 +12,7 @@ import { Footer } from "@/components/footer/footer";
 
 export default function Home() {
   return (
-    <>
+    <div className="container">
       <Header />
       <Hero />
       <Clients />
@@ -23,6 +23,6 @@ export default function Home() {
       <Customers />
       <CommunityUpdates />
       <Footer />
-    </>
+    </div>
   );
 }
