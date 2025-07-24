@@ -12,19 +12,23 @@ import { Footer } from "@/components/footer/footer";
 
 export default function Home() {
   return (
-    <div className="container">
+    <div className="relative">
       <Header />
       <div className="absolute inset-y-[84px] gap-[40px]">
         <Hero />
         <Clients />
         <Community />
       </div>
-      <Unlock />
-      <Achievemennts />
-      <Calendar />
-      <Customers />
-      <CommunityUpdates />
-      <Footer />
+      <div className="absolute w-[1440] h-[2242.39892578125] inset-y-[1327px] inset-x-[1px] gap-[48px]">
+        <Unlock />
+        <Achievemennts />
+        <Calendar />
+        <Customers />
+        <CommunityUpdates />
+      </div>
+      <div className="absolute inset-y-[3664px] w-[1440] h-[628]">
+        <Footer />
+      </div>
     </div>
   );
 }

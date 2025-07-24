@@ -4,7 +4,7 @@ import { Dot } from "./dot";
 
 export function Hero() {
   return (
-    <div className="bg-[#F5F7FA]  gap-[104px] w-[1440]">
+    <div className="bg-[#F5F7FA]  gap-[104px] w-[1440] h-[599]">
       <div className="inline-flex justify-around content-around w-[1440] pt-[96px] pr-[144px] pb-[96px] pl-[144px]">
         <Frame1 />
         <Illustration />

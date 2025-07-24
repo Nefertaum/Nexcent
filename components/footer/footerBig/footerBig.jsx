@@ -7,13 +7,13 @@ import { Email } from "./email";
 
 export function FooterBig() {
   return (
-    <>
+    <div className="inline-flex justify-between bg-[#263238]">
       <Logo />
       <Copyright />
       <Company />
       <Support />
       <Icons />
       <Email />
-    </>
+    </div>
   );
 }

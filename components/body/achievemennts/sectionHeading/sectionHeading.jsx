@@ -1,3 +1,8 @@
 export function SectionHeading() {
-  return <h2>Helping a local business reinvent itself</h2>;
+  return (
+    <h2 className="w-[408] h-[88] font-semibold font-inter text-[36px] leading-[44px] text-[#4D4D4D] ">
+      Helping a local{" "}
+      <span className="text-[#4CAF4F]">business reinvent itself</span>
+    </h2>
+  );
 }

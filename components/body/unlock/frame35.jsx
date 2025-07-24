@@ -7,6 +7,7 @@ export function Frame35() {
       width={442}
       height={433}
       alt="formular icon"
+      className="inset-x-[52px]"
     />
   );
 }
