@@ -14,7 +14,7 @@ export default function Home() {
   return (
     <div className="relative">
       <Header />
-      <div className="absolute inset-y-[84px] gap-[40px]">
+      <div className="flex flex-col absolute inset-y-[84px]  gap-[40px] w-[1440] h-[1285] justify-between content-between">
         <Hero />
         <Clients />
         <Community />

@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export function Icons() {
   return (
-    <>
+    <div className="inline-flex justify-around w-[176] h-[32] gap-[16px]">
       <Image
         src="/images/Footer_icon1of4.svg"
         width={32}
@@ -27,6 +27,6 @@ export function Icons() {
         height={32}
         alt="youtube icon"
       />
-    </>
+    </div>
   );
 }

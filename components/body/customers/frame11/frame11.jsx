@@ -3,7 +3,7 @@ import { Content } from "./content/content";
 
 export function Frame11() {
   return (
-    <div className="w-[748] h-[324] gap-[32px] ">
+    <div className="w-[748] h-[324] gap-[32px]">
       <Content />
       <Frame14 />
     </div>
