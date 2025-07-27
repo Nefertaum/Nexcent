@@ -19,14 +19,14 @@ export default function Home() {
         <Clients />
         <Community />
       </div>
-      <div className="absolute w-[1440] h-[2242.39892578125] inset-y-[1327px] inset-x-[1px] gap-[48px]">
+      <div className="flex flex-col justify-between absolute w-[1440] h-[2242.39892578125] inset-y-[1411px] inset-x-[1px] gap-[48px]">
         <Unlock />
         <Achievemennts />
         <Calendar />
         <Customers />
         <CommunityUpdates />
       </div>
-      <div className="absolute inset-y-[3664px] w-[1440] h-[628]">
+      <div className="flex flex-col justify-between absolute inset-y-[3748px] w-[1440] h-[628]">
         <Footer />
       </div>
     </div>

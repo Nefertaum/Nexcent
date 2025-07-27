@@ -1,6 +1,6 @@
 export function Content() {
   return (
-    <div className="w-[748] h-[244] gap-[16px] ">
+    <div className="flex flex-col justify-between w-[748] h-[244] gap-[16px] ">
       <p className="w-[748] h-[168] font-inter font-medium text-[16px] leading-[24px] text-[#717171] ">
         Maecenas dignissim justo eget nulla rutrum molestie. Maecenas lobortis
         sem dui, vel rutrum risus tincidunt ullamcorper. Proin eu enim metus.
@@ -13,7 +13,7 @@ export function Content() {
         efficitur libero condimentum id. Curabitur id nibh id sem dignissim
         finibus ac sit amet magna.
       </p>
-      <div className="w-[748] h-[60] gap-[8px] ">
+      <div className="flex flex-col justify-between w-[748] h-[60] gap-[8px] ">
         <h4 className="w-[748] h-[28] font-inter font-semibold text-[20px] leading-[28px] text-[#4CAF4F] ">
           Tim Smith
         </h4>
